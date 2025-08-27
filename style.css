@@ -19,29 +19,34 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* lớp phủ màu đen, độ mờ 50% */
-    z-index: -1; /* nằm dưới nội dung */
-  }
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1; 
+}
 
 header {
     display: flex;
     align-items: center;
     padding: 20px;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 header img { 
-    margin: 20px auto;
-    height: 200px;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    height: 250px;
+    
     box-shadow: rgba(0, 0, 0, 0.5);
 }
 
 .center-wrapper {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: calc(100vh - 100px); /* trừ chiều cao header */
-  }
+}
 
 .center-text {
     background: rgba(0, 0, 0, 0.5);
@@ -50,4 +55,4 @@ header img {
     box-shadow: 0 0 20px rgba(0,0,0,0.6);
     text-align: center;
     max-width: 1000px;
-  }
+}
